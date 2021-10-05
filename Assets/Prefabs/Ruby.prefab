@@ -94,9 +94,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 83607997102868341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e74cfb1b60034b04d9804f5c35c9df05, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cc142bdd6096ca428a48d9eae419f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 3
+  maxHealth: 5
+  currentHealth: 0
+  timeInvincible: 2
 --- !u!50 &2549725512298756185
 Rigidbody2D:
   serializedVersion: 4
