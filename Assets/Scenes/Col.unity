@@ -4244,7 +4244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8264178669124760535, guid: acd3b92832f61e242ba9c0738a14c530, type: 3}
       propertyPath: m_Name
-      value: MrClockworkFixed1
+      value: Robot
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acd3b92832f61e242ba9c0738a14c530, type: 3}
