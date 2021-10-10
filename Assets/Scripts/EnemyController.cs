@@ -11,7 +11,9 @@ public class EnemyController : MonoBehaviour
     Rigidbody2D rigidbody2D;
     float timer;
     int direction = 1;
+
     bool broken = true;
+
 
     Animator animator;
 
@@ -25,7 +27,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //remember ! inverse the test, so if broken is true !broken will be false and return won’t be executed.
+        //remember ! inverse the test, so if broken is true !broken will be false and return wonï¿½t be executed.
         if (!broken)
         {
             return;
@@ -45,12 +47,16 @@ public class EnemyController : MonoBehaviour
         if (vertical)
         {
             position.y = position.y + Time.deltaTime * speed * direction;
+
+
+
             animator.SetFloat("Move X", 0);
             animator.SetFloat("Move Y", direction);
         }
         else
         {
             position.x = position.x + Time.deltaTime * speed * direction;
+
             animator.SetFloat("Move X", direction);
             animator.SetFloat("Move Y", 0);
         }
